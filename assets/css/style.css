@@ -1,0 +1,173 @@
+/* ============== nav ==================== */
+nav{
+    background-color: #fff;
+}
+.navbar-brand{
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 32px !important;
+}
+.navbar-brand.d-block:hover{
+    color: var(--primary-color);
+}
+.navbar-toggler{
+    border: 0 !important;
+}
+.navbar-toggler:focus{
+    color: transparent;
+}
+nav .nav-item .active{
+    color: var(--primary-color) !important;
+}
+nav .nav-link{
+    text-transform: uppercase;
+    font-family: var(--secondary-font) !important;
+    font-size: .81rem;
+    font-weight: 800;
+    font-size: 13px;
+    color: #333;
+}
+nav .nav-link:hover{
+    color: var(--primary-color);
+}
+
+/* ============== /end-nav ==================== */
+/* ================== circal-overlay ============= */
+#circal-overlay{
+    width: 120px;
+    height: 120px;
+    position: fixed;
+    border-radius: 50%;
+    background-color: bisque;
+    transform: translate(-50%, -50%) scale(0);
+
+}
+/* ================== /end-circal-overlay ============= */
+/* =============== header ================== */
+.social-icon a{
+    margin: 0 20px;
+    color: #bbb;
+}
+.social-icon a:hover{
+    color: var(--primary-color);
+}
+.header p{
+    color: #ccc !important;
+}
+/* =============== /end-header =============== */
+/* =============== section-1 ================ */
+.section-1 .container .row .col-md-4 img{
+    width: 78%;
+}
+.section-1 div.the-box{
+    position: absolute;
+    width: 72%;
+    height: 100%;
+    border: 1px solid #ccc;
+    top: 12%;
+    left: 18%;
+    z-index: -10;
+}
+span.the-line{
+    display: block;
+    width: 34px;
+    height: 3px;
+    background-color: var(--primary-color);
+}
+
+/* =============== /end-section-1 ================ */
+/* =============== section-2 ================ */
+.section-2 .container .col-md-4 img{
+    width: 78%;
+}
+.sec-2-img-box-1{
+    position: absolute;
+    width: 72%;
+    height: 100%;
+    background-color: #eee;
+    top: -13%;
+    left: -18%;
+    z-index: -10;
+}
+.sec-2-img-box-2{
+    position: absolute;
+    width: 72%;
+    height: 100%;
+    border: 1px solid #ccc;
+    top: 13%;
+    left: 18%;
+    z-index: -10;
+}
+
+
+
+/* =============== /end-section-2 ================ */
+/* =============== section-3 ================ */
+
+
+
+
+
+
+/* =============== /end-section-3 ================ */
+/* =============== section-4 ================ */
+.section-4 button{
+    background-color: transparent !important;
+    color: #777 !important;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 12px;
+    border-radius: 0 !important;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0 20px;
+}
+/* .section-4 .container .row ul.nav{
+} */
+.section-4 button.active{
+    color: #000 !important;
+    border-bottom: 3px solid var(--primary-color);
+}
+.section-4 button:hover{
+    color: #000 !important;
+}
+
+
+
+/* =============== /end-section-4 ================ */
+/* =============== section-6 ================ */
+.section-6 form input,
+.section-6 form select{
+    font-family: var(--primary-font);
+    font-size: 18px;
+}
+.section-6 form input:focus{
+    border: 1px solid var(--primary-color) !important;
+    box-shadow: none;
+}
+/* =============== /end-section-6 ================ */
+/* =============== section-7 ================ */
+.section-7 .row h5{
+    line-height: 30px;
+}
+/* =============== /end-section-7 ================ */
+/* =============== section-9 ================ */
+.section-9 form input:focus{
+    border: 1px solid var(--primary-color) !important;
+    box-shadow: none;
+}
+
+
+
+
+
+/* =============== /end-section-9 ================ */
+/* ============== footer ==================== */
+
+
+
+
+
+
+/* ============== /end-footer ================= */
+
