@@ -1075,9 +1075,12 @@
     <script>
       const scroll = new LocomotiveScroll({
         el: document.querySelector('#main'),
-        smooth: true
+        smooth: true,
+        smartphone: { smooth: true },
+        tablet: { smooth: true },
+        lerp: 0.03, // Linear Interpolation, 0 > 1 // Try 0.01
+        multiplier: 1.2, // Effect Multiplier
       });
-
       //================= jarallax ==============
       jarallax(document.querySelectorAll('.jarallax'), {
         speed: 0.8,

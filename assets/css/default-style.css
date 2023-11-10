@@ -762,6 +762,9 @@ padding-bottom: 6rem !important;
     }
 }
 @media screen and (max-width: 575.98px) {
+    .container{
+        overflow-x: hidden;
+    }
     .header .container p.mt-1{
         width: 400px !important;
     }
